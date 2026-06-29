@@ -8,6 +8,11 @@
     <artifactId>ecom-ear</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
+    <modules>
+        <module>core</module>
+        <module>ejb</module>
+        <module>web</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
