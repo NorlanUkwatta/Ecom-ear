@@ -51,6 +51,24 @@
                 <version>3.3.0</version>
                 <configuration>
                     <defaultLibBundleDir>lib</defaultLibBundleDir>
+                    <modules>
+                        <jarModule>
+                            <groupId>lk.jiat</groupId>
+                            <artifactId>core</artifactId>
+                            <bundleFileName>core.jar</bundleFileName>
+                        </jarModule>
+                        <ejbModule>
+                            <groupId>lk.jiat</groupId>
+                            <artifactId>ejb</artifactId>
+                            <bundleFileName>ejb.jar</bundleFileName>
+                        </ejbModule>
+                        <webModule>
+                            <groupId>lk.jiat</groupId>
+                            <artifactId>web</artifactId>
+                            <contextRoot>/ee-web</contextRoot>
+                            <bundleFileName>web.war</bundleFileName>
+                        </webModule>
+                    </modules>
                 </configuration>
             </plugin>
         </plugins>
